@@ -1,0 +1,1 @@
+DROP EXTERNAL TABLE [dbo].[NYC_Payroll_Summary]
