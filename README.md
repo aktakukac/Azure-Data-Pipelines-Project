@@ -127,83 +127,120 @@ Captured screenshots of Step 1 are displayed here:
 
 #### DataLakeGen2 that shows files are uploaded
 
-![Fileuploads](images/xxx.jpeg)
+![Fileuploads](images/step1_fileupload_1.jpg)
+![Fileuploads](images/step1_fileupload_2.jpg)
 
 #### Above 5 tables created in SQL db
 
-![SQL tables](images/xxx.jpeg)
+![SQL tables](images/step1_sqldb_5_tables.jpg)
 
 #### External table created in Synapse
 
-![External table in Synapse](images/xxx.jpeg)
+![External table in Synapse](images/step1_external_table.jpg)
 
 ### Step 2: Create Linked Service
 Captured screenshots amd configs of Step 2 are displayed here:
 
 #### Linked Services Page
 
-![Linked Services](images/xxx.jpeg)
+![Linked Services](images/step2_linked_services.jpg)
 
 #### Configs of Linked Service
 
-[Linked Service Configuration](configs/xxx.json)
+[ADLS linked Service Configuration](configs/ls_adls.json) 
+
+[SQL DB linked Service Configuration](configs/ls_sqldb.json)
 
 ### Step 3: Create Datasets in Azure Data Factory
 
 #### Screenshots of datasets in Data Factory 
 
-![Datasets in Data Factory](images/xxx.jpeg)
+![Datasets in Data Factory](images/step3_datasets.jpg)
 
 #### Configs of Datasets in Data Factory
 
-[Dataset Configurations](configs/xxx.json)
+[Dataset Configurations ADLS payroll 2020](configs/ds_adls_nyc_payroll_2020.json)
+
+[Dataset Configurations ADLS payroll 2021](configs/ds_adls_nyc_payroll_2021.json)
+
+[Dataset Configurations ADLS Agency](configs/ds_adls_nyc_payroll_agencymaster.json)
+
+[Dataset Configurations ADLS EMP](configs/ds_adls_nyc_payroll_empmaster.json)
+
+[Dataset Configurations ADLS Title](configs/ds_adls_nyc_payroll_titlemaster.json)
+
+[Dataset Configurations external summary](configs/ds_ext_adls_nyc_payroll_summary.json)
+
+[Dataset Configurations SQL DB payroll 2020](configs/ds_sqldb_nyc_payroll_2020.json)
+
+[Dataset Configurations SQL DB payroll 2021](configs/ds_sqldb_nyc_payroll_2021.json)
+
+[Dataset Configurations SQL DB Agency](configs/ds_sqldb_nyc_payroll_agency_md.json)
+
+[Dataset Configurations SQL DB EMP](configs/ds_sqldb_nyc_payroll_emp_md.json)
+
+[Dataset Configurations SQL DB payroll summary](configs/ds_sqldb_nyc_payroll_summary.json)
+
+[Dataset Configurations SQL DB title](configs/ds_sqldb_nyc_payroll_title_md.json)
 
 ### Step 4: Create Data Flows
 
 #### Screenshots of Dataflows in Data Factory 
 
-![Dataflows in Data Factory](images/xxx.jpeg)
+![Dataflows in Data Factory](images/step4_dataflows.jpg)
 
 #### Configs of Dataflows in Data Factory
 
-[Dataflows Configurations](configs/xxx.json)
+[Dataflows Configurations payroll 2020](configs/df_payroll_2020.json)
+
+[Dataflows Configurations payroll 2021](configs/df_payroll_2021.json)
+
+[Dataflows Configurations agency](configs/df_payroll_agencymaster.json)
+
+[Dataflows Configurations emp](configs/df_payroll_empmaster.json)
+
+[Dataflows Configurations title](configs/df_payroll_titlemaster.json)
 
 ### Step 5: Data Aggregation and Parameterization
 
 #### Screenshots of Aggregate Dataflow in Data Factory 
 
-![Aggegate Dataflow in Data Factory](images/xxx.jpeg)
+![Aggegate Dataflow in Data Factory](images/step5_aggregate_dataflow_and_param.jpg)
 
 #### Configs of Dataflows in Data Factory
 
-[Aggregate Dataflow Configurations](configs/xxx.json)
+[Dataflows Configurations DF Summary](configs/df_dataflow_summary.json)
 
 ### Step 6: Pipeline Creation
 
 #### Screenshot of Pipeline resource in Data Factory 
 
-![Pipeline in Data Factory](images/xxx.jpeg)
+![Pipeline in Data Factory](images/step6_pipeline.jpg)
 
 #### Configs of Pipeline in Data Factory
 
-[Pipeline Configurations](configs/xxx.json)
+[Pipeline Configurations](configs/pl_dataload.json)
 
 ### Step 7: Trigger and Monitor Pipeline
 
 #### Screenshot of Pipeline Run 
 
-![Pipeline Run](images/xxx.jpeg)
+![Pipeline Run](images/step7_pipeline_run.jpg)
 
 ### Step 8: Verify Pipeline run artifacts
 
 #### Screenshot of Query from SQL DB Summary
 
-![SQL Query DB Summary table](images/xxx.jpeg)
+![SQL Query DB Summary table](images/step8_summarytable_content.jpg)
 
 #### Screenshot of dirstaging directory 
 
-![Dirstaging directory](images/xxx.jpeg)
+![Dirstaging directory](images/step8_dirstaging_content.jpg)
 
 #### Screenshot of Synape summary external table 
 
-![External table query](images/xxx.jpeg)
+![External table query](images/step8_external_table_content.jpg)
+
+### Step 9: Connect to Github
+
+The repo is found under /repo subfolder
