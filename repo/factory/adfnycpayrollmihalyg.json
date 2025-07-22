@@ -1,0 +1,9 @@
+{
+	"name": "adfnycpayrollmihalyg",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "72c0c73c-8c6c-4e1f-bd8f-14732834a2ab",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
